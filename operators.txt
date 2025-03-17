@@ -1,0 +1,10 @@
+Python operators: 
+Operators are used to perform operations on variables and values.
+
+Python divides the operators in the following groups:
+
+1. Arithmetic operators : +, -, *, /, %, **.
+2. Assignment operators : =, +=, -=, *=, /=, %=.
+3. Comparison operators : ==, <, >, <=, >=, !=.
+4. Logical operators : And, Or, Not.
+5. Bitwise operators : &, |, <<, >>, -, ^.
