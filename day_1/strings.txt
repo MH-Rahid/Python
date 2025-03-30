@@ -1,0 +1,2 @@
+String: 
+strings is data type that stores a Sequence of characters

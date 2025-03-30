@@ -1,0 +1,68 @@
+# lists
+* lists is used to store multiple items in a single variable.
+
+* lists is a built in datatype in python used to store collections of data.
+there are four built in datatype that store collections of data lists, 
+tuple, set function.
+
+* lists are created using squire brackets.
+ex: lists = ["cat", "dog", "monkey"]
+
+* lists items are ordered changeable and allows duplicate value. ordered 
+means if we add item to a lists that items placed at the end of the lists.
+changeable means we can add or remove items in the list. a list can have 
+multiple same items means allows duplicate value.
+
+* lists length : with len() function we can determine how many items a 
+list has 
+ex: len(lists)
+
+* type() : we can determine what is the data type to used with help of 
+type() function.
+ex: type(lists)
+
+* access : we can access a list by referring to the index number, range
+of indexes, negative indexing and range of negative indexing
+
+ex: lists[2], lists[-1], list[2:3], lists[-4,-1]
+
+* in keyword : to determine a specific item is present in lists.
+
+ex: 
+if "cat" in lists: 
+print("yes")
+else: 
+print("no")
+
+* Change item value: we can change specific value refer to the index 
+and range of indexes: 
+
+ex: 
+lists[2] = "lion"
+lists[1:3] = ["deer", "monkey"]
+
+*insert(): the insert() method add new item at the specific index without 
+replace any item.
+lists.insert(3,"duck")
+
+*append(): to add an item to the end of the list.
+ex: 
+lists.append("snake")
+
+*extend(): to append elements from another list to the current lists.
+
+* remove lists items : remove(), pop(), clear() are used to remove lists
+items.
+
+
+
+# tuple
+
+*tuple: tuple items are ordered unchangeable and allows duplicate values.
+
+* access: we can access a tuple to refer to the number of index, range of 
+indexes and negative indexing and range of negative indexing.
+
+* update tuple: Tuples are unchangeable, or immutable as it also is called.
+But there is a workaround. You can convert the tuple into a list, 
+change the list, and convert the list back into a tuple
