@@ -14,10 +14,10 @@ filePath = r"C:\Users\Rahid\Desktop\CODING\Python\programs\basic\sample.txt"
 #     f.write(newData)
 
 
-with open(filePath, "r") as f:
-    data = f.read()
+# with open(filePath, "r") as f:
+#     data = f.read()
 
-if(data.find("learning") != -1):
-    print("found")
-else:
-    print("not found")
+# if(data.find("learning") != -1):
+#     print("found")
+# else:
+#     print("not found")
